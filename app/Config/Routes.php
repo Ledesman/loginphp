@@ -10,6 +10,8 @@ $routes->get('/inicio', 'Home::inicio');
 $routes->get('/login', 'Home::login');
 $routes->post('/login', 'Home::login');
 $routes->get('/salir', 'Home::salir');
+$routes->get('/vistaCrear', 'Home::vistaCrear');
+
 $routes->get('/listado', 'Crud::index');
 $routes->post('/actualizar', 'Crud::actualizar');
 $routes->get('/obtenerNombre/(:any)', 'Crud::obtenerNombre/$1');

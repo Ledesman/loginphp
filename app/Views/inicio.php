@@ -26,7 +26,7 @@
     </ul>
   <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="<?php echo base_url('/salir') ?>">Salir <span class="sr-only">(current)</span></a>
+        <a class="dropdown-item" href="<?php echo base_url('/salir') ?>">Salir <span class="sr-only">(current)</span></a>
       
     </ul>
   

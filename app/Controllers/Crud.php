@@ -6,6 +6,7 @@ class Crud extends BaseController
 {
     public function index(){
 
+
         $Crud = new CrudModel();
     $datos = $Crud->listarNombres();
 
@@ -15,7 +16,12 @@ class Crud extends BaseController
             "datos" => $datos,
             "mensaje" =>$mensaje
         ];
-        return view('listado', $data );
+
+        echo view('header');
+        echo view('inicio');
+        echo view('listado', $data );
+        echo view('footer');
+
     }
 // public function guardar(){
 //     $Crud = new CrudModel();

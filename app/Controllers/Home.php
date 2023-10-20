@@ -44,6 +44,14 @@ class Home extends BaseController
         $session->destroy();
         return redirect()->to(base_url('/'));
     }
+    public function vistaCrear(){
+            echo view('header');
+            echo view('inicio');
+
+        echo view('vistaCrear');
+        echo view('footer');
+
+    }
 
 }
 
