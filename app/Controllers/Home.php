@@ -11,8 +11,8 @@ class Home extends BaseController
     }
 
     public function inicio(){
-
-        return view('inicio');
+        echo view('header');
+        echo view('inicio');
     }
     public function login(){
 
@@ -51,6 +51,12 @@ class Home extends BaseController
         echo view('vistaCrear');
         echo view('footer');
 
+    }
+    public function contenido(){
+        echo view('header');
+        echo view('inicio');
+        echo view('contenido');
+        echo view('footer');
     }
 
 }

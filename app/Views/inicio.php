@@ -21,12 +21,19 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="<?php echo base_url('/listado') ?>">Ver Lista<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/listado') ?>"><i class="fas fa-shopping-basket"></i>Ver Lista<span class="sr-only">(current)</span></a>
+      
+    </ul>  <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="<?php echo base_url('/contenido') ?>"><i class="fa-regular fa-file-lines"></i>Categorias<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/unidades') ?>"><i class="fa-regular fa-file-lines"></i>Unidades<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/listado') ?>"><i class="fa-regular fa-file-lines"></i>Productos<span class="sr-only">(current)</span></a>
+
       
     </ul>
   <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="dropdown-item" href="<?php echo base_url('/salir') ?>">Salir <span class="sr-only">(current)</span></a>
+        <a class="dropdown-item" href="<?php echo base_url('/salir') ?>"><i class="fas fa-user fa-fw"></i>Salir <span class="sr-only">(current)</span></a>
       
     </ul>
   

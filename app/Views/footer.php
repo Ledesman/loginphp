@@ -12,12 +12,15 @@
 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2021</div>
+                            <div class="text-muted">Copyright &copy; Pizzaeria Ibarreta <?php echo date('Y') ?></div>
                             <div>
-                                <a href="#">Privacy Policy</a>
+                                <a href="https://facebook.com/pizzeeriaIbarerta" target="_black">Facebbok</a>
                                 &middot;
-                                <a href="#">Terms &amp; Conditions</a>
+                                <a href="https://pizzeeriaIbarerta/public/" target="_black">Sitio Web</a>
+
+                                <a href="#">Terminos &amp; Condiciones</a>
                             </div>
+
                         </div>
                     </div>
                 </footer>
