@@ -25,9 +25,9 @@
       
     </ul>  <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="<?php echo base_url('/contenido') ?>"><i class="fa-regular fa-file-lines"></i>Categorias<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="<?php echo base_url('/unidades') ?>"><i class="fa-regular fa-file-lines"></i>Unidades<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="<?php echo base_url('/listado') ?>"><i class="fa-regular fa-file-lines"></i>Productos<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/categorias') ?>"><i class="fas fa-window-restore"></i>Categorias<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/unidades') ?>"><i class="fas fa-window-maximize"></i>Unidades<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/listado') ?>"><i class="fas fa-tv"></i>Productos<span class="sr-only">(current)</span></a>
 
       
     </ul>

@@ -21,6 +21,17 @@ $routes->get('/eliminar/(:any)', 'Crud::eliminar/$1');
 
 
 $routes->get('/unidades', 'Unidades::index');
+$routes->get('/unidadesNuevo', 'Unidades::nuevo');
+$routes->post('/unidades/insertar', 'Unidades::insertar');
+$routes->get('/unidades/editar/(:any)', 'Unidades::editar/$1');
+$routes->post('/unidades/actualizar', 'Unidades::actualizar');
+$routes->get('/unidades/eliminar/(:any)', 'Unidades::eliminar/$1');
+$routes->get('/eliminados', 'Unidades::eliminados');
+$routes->get('/unidades/reingresar/(:any)', 'Unidades::reingresar/$1');
+
+
+$routes->get('/categorias', 'Categorias::index');
+
 
 
 

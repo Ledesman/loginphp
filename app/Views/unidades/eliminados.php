@@ -3,10 +3,10 @@
             <div class="card mb-4">
             
                             <div class="card-header">
-                            <a class="btn btn-primary" href="<?php echo base_url(); ?>unidadesNuevo">Crear</a>
+                           
                                 <i class="fas fa-table mr-1"></i>
                                
-                        <a class="btn btn-warning" href="<?php echo base_url(); ?>eliminados">Eliminados</a>
+                        <a class="btn btn-warning" href="<?php echo base_url(); ?>unidades"">Unidades</a>
                         
                                 <h1><?php echo $titulo; ?></h1>
                             </div>
@@ -19,7 +19,7 @@
                                 <th>Nombre</th>
                          <th>Nombre Corto</th>
                          <th></th>
-                        <th></th>
+                       
                      
                                 </thead>
                                         
@@ -30,11 +30,10 @@
                         <td><?php echo $dato['id']; ?></td>
                         <td><?php echo $dato['nombre']; ?></td>
                         <td><?php echo $dato['nombre_corto']; ?></td>
-                        <td><a class="btn btn-primary" href="<?php echo base_url().'unidades/editar/'. $dato['id']; ?>" >
-                        <i class="fas fa-pencil-alt"></i></a>
+                        <td><a class="btn btn-primary" href="<?php echo base_url().'unidades/reingresar/'. $dato['id']; ?>" >
+                        <i class="fas fa-arrow-alt-circle-up"></i></a>
                         </td>
-                        <td><a class="btn btn-danger" href="<?php echo base_url().'unidades/eliminar/'. $dato['id']; ?>" >
-                        <i class="fas fa-trash"></i></a></td>
+                       
                         <td>
                          
                                 </tr>
