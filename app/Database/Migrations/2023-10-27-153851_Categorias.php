@@ -20,7 +20,7 @@ class Categorias extends Migration
                 'constraint' => '100',
             ],
         
-            'activo' => [
+            'estado' => [
                 'type' => 'BOOL',
                 'null' => true,
             ],

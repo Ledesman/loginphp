@@ -4,14 +4,15 @@
 
 class categorias extends BaseController
 {
+    protected $categorias;
 
     public function __construct(){
        $this->categorias = new CategoriasModel();
     }
 
-    public function index( $activo =1){
+    public function index($activo =1){
 
-        $categorias = $this->categorias->where('activo', $activo)->findAll();
+        $categorias = $this->categorias->where('estado', $activo)->findAll();
         $data =[
             'titulo' => 'Categorias', 'datos' => $categorias
         ];
@@ -24,7 +25,7 @@ class categorias extends BaseController
 
     public function eliminados ($activo =0){
 
-        $categorias = $this->categorias->where('activo', $activo)->findAll();
+        $categorias = $this->categorias->where('estado', $activo)->findAll();
         $data =[
             'titulo' => 'categorias Eliminados', 'datos' => $categorias
         ];
@@ -36,7 +37,7 @@ class categorias extends BaseController
     }
     public function reingresar($id){
     
-        $this->categorias->update($id, ['activo' =>1]);
+        $this->categorias->update($id, ['estado' =>1]);
                 return redirect()->to(base_url().'/categorias');
            
         }
@@ -89,7 +90,7 @@ class categorias extends BaseController
 
         public function eliminar($id){
     
-            $this->categorias->update($id, ['activo' =>0]);
+            $this->categorias->update($id, ['estado' =>0]);
                     return redirect()->to(base_url().'/categorias');
                
             }

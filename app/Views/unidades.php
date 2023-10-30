@@ -33,9 +33,9 @@
                         <td><a class="btn btn-primary" href="<?php echo base_url().'unidades/editar/'. $dato['id']; ?>" >
                         <i class="fas fa-pencil-alt"></i></a>
                         </td>
-                        <td><a class="btn btn-danger" href="<?php echo base_url().'unidades/eliminar/'. $dato['id']; ?>" >
+                        <td><a data-toggle="modal" data-target="#modal-confirma" data-placement="top" title="Eliminar Unidad" class="btn btn-danger" href="#" data-href="<?php echo base_url().'unidades/eliminar/'. $dato['id']; ?>" >
                         <i class="fas fa-trash"></i></a></td>
-                        <td>
+                    
                          
                                 </tr>
                               
@@ -48,6 +48,31 @@
                         </div>
                         </div>
     
+
+
+<!-- Modal -->
+<div class="modal fade" id="modal-confirma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Eliminar Unidad</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>¿Desea eliminar esta unidad?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-ligth" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-ligth" data-dismiss="modal">No</button>
+
+        <a  class="btn btn-danger btn-ok">Si</a>
+      </div>
+    </div>
+  </div>
+</div>
+
     </div>
    
 </div>

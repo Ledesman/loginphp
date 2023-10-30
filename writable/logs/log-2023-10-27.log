@@ -94,3 +94,53 @@ WHERE `activo` = :activo:', [...], false)
  6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
  7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-27 15:47:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\categorias::$categorias is deprecated in APPPATH\Controllers\Categorias.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\categorias->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 15:47:21 --> mysqli_sql_exception: Unknown column 'activo' in 'where clause' in C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pizeria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pizeria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pizeria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pizeria\app\Controllers\Categorias.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(919): App\Controllers\categorias->index()
+#8 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+#9 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pizeria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 15:47:21 --> Unknown column 'activo' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categorias`
+WHERE `activo` = :activo:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Categorias.php(14): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\categorias->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-27 15:48:40 --> Undefined variable $datos
+in APPPATH\Views\categorias.php on line 27.
+ 1 APPPATH\Views\categorias.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\categorias.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\categorias.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categorias', [], true)
+ 5 APPPATH\Controllers\Categorias.php(22): view('categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\categorias->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-27 15:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-27 15:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

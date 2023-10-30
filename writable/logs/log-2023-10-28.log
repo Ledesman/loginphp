@@ -1,0 +1,313 @@
+INFO - 2023-10-28 11:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 11:09:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 11:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 11:18:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-28 11:18:45 --> Undefined array key "nombre_corto"
+in APPPATH\Controllers\Unidades.php on line 56.
+ 1 APPPATH\Controllers\Unidades.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Unidades.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Unidades->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 11:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 11:23:46 --> Undefined array key "nombre_corto"
+in APPPATH\Views\categorias\editar.php on line 22.
+ 1 APPPATH\Views\categorias\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\categorias\\editar.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\categorias\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categorias/editar', [], true)
+ 5 APPPATH\Controllers\Categorias.php(77): view('categorias/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\categorias->editar('3')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 11:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 11:25:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\categorias\editar.php on line 14.
+ 1 APPPATH\Views\categorias\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\categorias\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\categorias\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categorias/editar', [], true)
+ 5 APPPATH\Controllers\Categorias.php(77): view('categorias/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\categorias->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 11:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 11:25:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\categorias\editar.php on line 14.
+ 1 APPPATH\Views\categorias\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\categorias\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\categorias\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categorias/editar', [], true)
+ 5 APPPATH\Controllers\Categorias.php(77): view('categorias/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\categorias->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 11:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 11:25:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\categorias\editar.php on line 14.
+ 1 APPPATH\Views\categorias\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\categorias\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\categorias\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('categorias/editar', [], true)
+ 5 APPPATH\Controllers\Categorias.php(77): view('categorias/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\categorias->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 11:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-28 11:25:55 --> mysqli_sql_exception: Unknown column 'activo' in 'field list' in C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `categor...', 0)
+#1 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `categor...')
+#2 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `categor...')
+#3 C:\xampp\htdocs\pizeria\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `categor...', Array, false)
+#4 C:\xampp\htdocs\pizeria\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pizeria\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pizeria\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pizeria\app\Controllers\Categorias.php(93): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(919): App\Controllers\categorias->eliminar('4')
+#9 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+#10 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pizeria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-28 11:25:55 --> Unknown column 'activo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `categorias` SET `activo` = :activo:, `fecha_edit` = :fecha_edit:
+WHERE `categorias`.`id` IN :categorias.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Categorias.php(93): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\categorias->eliminar('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 11:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-28 11:32:06 --> mysqli_sql_exception: Unknown column 'activo' in 'field list' in C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `categor...', 0)
+#1 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `categor...')
+#2 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `categor...')
+#3 C:\xampp\htdocs\pizeria\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `categor...', Array, false)
+#4 C:\xampp\htdocs\pizeria\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pizeria\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pizeria\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pizeria\app\Controllers\Categorias.php(93): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(919): App\Controllers\categorias->eliminar('4')
+#9 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+#10 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pizeria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-28 11:32:06 --> Unknown column 'activo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `categorias` SET `activo` = :activo:, `fecha_edit` = :fecha_edit:
+WHERE `categorias`.`id` IN :categorias.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Categorias.php(93): CodeIgniter\Model->update('4', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\categorias->eliminar('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 11:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 11:33:39 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Categorias.php(93): CodeIgniter\Model->update('4', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\categorias->eliminar('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\categorias))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 11:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 11:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:22:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:22:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 12:22:19 --> Call to undefined method CodeIgniter\Validation\Validation::listErros()
+in APPPATH\Views\unidades\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 4 APPPATH\Controllers\Unidades.php(49): view('unidades/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Unidades->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-28 12:25:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:25:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:25:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:26:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:26:35 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\unidades\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\unidades\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 4 APPPATH\Controllers\Unidades.php(49): view('unidades/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Unidades->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-28 12:28:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:28:39 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\unidades\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\unidades\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 4 APPPATH\Controllers\Unidades.php(71): view('unidades/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Unidades->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-28 12:29:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:29:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:29:05 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\unidades\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\unidades\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 4 APPPATH\Controllers\Unidades.php(49): view('unidades/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Unidades->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-28 12:29:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-28 12:29:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:33:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:33:53 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\unidades\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\unidades\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 4 APPPATH\Controllers\Unidades.php(49): view('unidades/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Unidades->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-28 12:33:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:33:54 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\unidades\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\unidades\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 4 APPPATH\Controllers\Unidades.php(71): view('unidades/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Unidades->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-28 12:33:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-28 12:52:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-28 12:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

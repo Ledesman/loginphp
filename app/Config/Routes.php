@@ -31,6 +31,19 @@ $routes->get('/unidades/reingresar/(:any)', 'Unidades::reingresar/$1');
 
 
 $routes->get('/categorias', 'Categorias::index');
+$routes->get('/categoriasNuevo', 'Categorias::nuevo');
+$routes->get('categorias/eliminados', 'Categorias::eliminados');
+$routes->post('/categorias/insertar', 'Categorias::insertar');
+$routes->get('/categorias/eliminar/(:any)', 'Categorias::eliminar/$1');
+
+$routes->get('/categorias/reingresar/(:any)', 'Categorias::reingresar/$1');
+$routes->post('/categorias/actualizar', 'Categorias::actualizar');
+$routes->get('/categorias/editar/(:any)', 'Categorias::editar/$1');
+
+
+
+
+
 
 
 

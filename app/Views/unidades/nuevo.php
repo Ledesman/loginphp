@@ -5,9 +5,11 @@
                            
                                 <i class="fas fa-table mr-1"></i>
                                 <h1><?php  echo $titulo; ?></h1>
-                            </div>
+                          <?php $this->validation = \Config\Services::validation (); ?> 
+                              </div>
 
     <form lass="form-group" method="POST" action="<?php echo base_url(); ?>unidades/insertar" autocomplete="off"> 
+    <?php csrf_field();?>
     <div class="form-group">
         <div class="row">
             <div class="col-12 col-sm-6">

@@ -32,5 +32,10 @@
         <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
         <script src="assets/demo/datatables-demo.js"></script>
+    <script>
+        $('#modal-confirma').on('show.bs.modal', function(e){
+            $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href') )
+        });
+    </script>
     </body>
 </html>
