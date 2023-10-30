@@ -1,19 +1,25 @@
 <?php namespace App\Controllers;
    
    use App\Models\ProductosModel;
+   use App\Models\CategoriasModel;
+   use App\Models\UnidadesModel;
+
 
 class Productos extends BaseController
 {
 
     public function __construct(){
        $this->productos = new ProductosModel();
+       $this->categorias = new CategoriasModel();
+       $this->unidades = new UnidadesModel();
+
     }
 
-    public function index( $activo =1){
+    public function index( $estado =1){
 
-        $productos = $this->productos->where('activo', $activo)->findAll();
+        $productos = $this->productos->where('estado', $estado)->findAll();
         $data =[
-            'titulo' => 'productos', 'datos' => $productos
+            'titulo' => 'Productos', 'datos' => $productos
         ];
 
         echo view('header');
@@ -22,9 +28,9 @@ class Productos extends BaseController
         echo view('footer');
     }
 
-    public function eliminados ($activo =0){
+    public function eliminados ($estado =0){
 
-        $productos = $this->productos->where('activo', $activo)->findAll();
+        $productos = $this->productos->where('estado', $estado)->findAll();
         $data =[
             'titulo' => 'productos Eliminados', 'datos' => $productos
         ];
@@ -36,13 +42,15 @@ class Productos extends BaseController
     }
     public function reingresar($id){
     
-        $this->productos->update($id, ['activo' =>1]);
+        $this->productos->update($id, ['estado' =>1]);
                 return redirect()->to(base_url().'/productos');
            
         }
     public function nuevo(){
+        $categorias = $this->categorias->where('estado', 1)->findAll();
+        $unidades = $this->unidades->where('activo', 1)->findAll();
         $data =[
-            'titulo' => 'Creando Nuevo'
+            'titulo' => 'Creando Nuevo Producto', 'unidades'=>$unidades, 'categorias'=>$categorias
         ];
         echo view('header');
         echo view('inicio');
@@ -51,11 +59,16 @@ class Productos extends BaseController
     }
 
     public function insertar(){
-       if ($this->request->getMethod()=="post" && $this->validate(['nombre' =>'required',
-       'nombre_corto' =>'required'])) {
+       if ($this->request->getMethod()=="post" ) {
            $datos =[
             "nombre" => $_POST['nombre'],
-            "nombre_corto" => $_POST['nombre_corto'],
+            "descripcion" => $_POST['descripcion'],
+            "imagen" => $_POST['imagen'],
+            "cantidad" => $_POST['cantidad'],
+            "precio" => $_POST['precio'],
+            "id_unidad" => $_POST['id_unidad'],
+            "id_categoria" => $_POST['id_categoria'],
+
             
         ];
         $Crud = new  productosModel();
@@ -71,19 +84,13 @@ class Productos extends BaseController
         echo view('productos/nuevo', $data );
         echo view('footer');
        }
-
-       
-    
-        
-        // $this->productos->save(['nombre' => $this->request->getPost('nombre'),
-        // 'nombre_corto' => $this->request->getPost('nombre_corto')]);
-
-        // return redirect()->to(base_url().'');
     }
     public function editar($id){
-        $unidad = $this->productos->where('id', $id)->first();
+        $categorias = $this->categorias->where('estado', 1)->findAll();
+        $unidades = $this->unidades->where('activo', 1)->findAll();
+        $producto = $this->productos->where('id', $id)->first();
         $data =[
-            'titulo' => 'Creando Nuevo', 'datos' => $unidad
+            'titulo' => 'Editando Productos', 'producto' => $producto, 'unidades'=>$unidades, 'categorias'=>$categorias
         ];
         echo view('header');
         echo view('inicio');
@@ -94,8 +101,14 @@ class Productos extends BaseController
     public function actualizar(){
         
 
-        $this->productos->update($this->request->getPost('id'), ['nombre' => $this->request->getPost('nombre'),
-        'nombre_corto' => $this->request->getPost('nombre_corto')]);
+        $this->productos->update($this->request->getPost('id'), [
+            'nombre' => $this->request->getPost('nombre'),
+        'descripcion' => $this->request->getPost('descripcion'),
+        'imagen' => $this->request->getPost('imagen'),
+        'cantidad' => $this->request->getPost('cantidad'),
+        'precio' => $this->request->getPost('precio'),
+        'id_unidad' => $this->request->getPost('id_unidad'),
+        'id_categoria' => $this->request->getPost('id_categoria')]);
                 return redirect()->to(base_url().'/productos');
        
     
@@ -103,7 +116,7 @@ class Productos extends BaseController
 
         public function eliminar($id){
     
-            $this->productos->update($id, ['activo' =>0]);
+            $this->productos->update($id, ['estado' =>0]);
                     return redirect()->to(base_url().'/productos');
                
             }

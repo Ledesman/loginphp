@@ -41,7 +41,15 @@ $routes->post('/categorias/actualizar', 'Categorias::actualizar');
 $routes->get('/categorias/editar/(:any)', 'Categorias::editar/$1');
 
 
+$routes->get('/productos', 'Productos::index');
+$routes->get('/productosNuevo', 'Productos::nuevo');
+$routes->get('productos/eliminados', 'Productos::eliminados');
+$routes->post('/productos/insertar', 'Productos::insertar');
+$routes->get('/productos/eliminar/(:any)', 'Productos::eliminar/$1');
 
+$routes->get('/productos/reingresar/(:any)', 'Productos::reingresar/$1');
+$routes->post('/productos/actualizar', 'Productos::actualizar');
+$routes->get('/productos/editar/(:any)', 'Productos::editar/$1');
 
 
 
