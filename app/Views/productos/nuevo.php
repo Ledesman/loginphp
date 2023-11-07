@@ -5,7 +5,13 @@
                            
                                 <i class="fas fa-table mr-1"></i>
                                 <h1><?php  echo $titulo; ?></h1>
-                                <?php $this->validation = \Config\Services::validation (); ?> 
+                               
+                                <!-- <?php $this->validation = \Config\Services::validation (); ?>  -->
+                             <?php  if (isset($validation)) { ?>
+                              <div class="alert alert-danger">
+                              <?php echo $validation->listErrors(); ?>
+                              </div>
+                            <?php }?>
                               </div>
 <div class="container">
   <form lass="form-group" method="POST" action="<?php echo base_url(); ?>productos/insertar" autocomplete="off"> 

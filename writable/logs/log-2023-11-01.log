@@ -1,0 +1,47 @@
+WARNING - 2023-11-01 00:37:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-01 00:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-01 00:37:19 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\unidades\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\unidades\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 4 APPPATH\Controllers\Unidades.php(89): view('unidades/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Unidades->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-01 00:37:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-01 00:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-01 00:37:20 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\unidades\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\unidades\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 4 APPPATH\Controllers\Unidades.php(68): view('unidades/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Unidades->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-01 00:37:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-01 00:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-01 00:37:22 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\unidades\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\unidades\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 4 APPPATH\Controllers\Unidades.php(89): view('unidades/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Unidades->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-01 00:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 00:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

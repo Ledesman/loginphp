@@ -22,16 +22,34 @@
   <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="<?php echo base_url('/listado') ?>"><i class="fas fa-shopping-basket"></i>Ver Lista<span class="sr-only">(current)</span></a>
-      
-    </ul>  <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="<?php echo base_url('/categorias') ?>"><i class="fas fa-window-restore"></i>Categorias<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/clientes') ?>"><i class="fas fa-users"></i>Ver clientes<span class="sr-only">(current)</span></a>
+
+    </ul>  
+    <ul class="nav-item dropdown">
+    <!-- <li class="nav-item "> -->
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-expanded="false"><i class="fas fa-tachometer-alt"></i>Producto</a>
+    <div class="dropdown-menu">
+    <a class="nav-link" href="<?php echo base_url('/categorias') ?>"><i class="fas fa-window-restore"></i>Categorias<span class="sr-only">(current)</span></a>
         <a class="nav-link" href="<?php echo base_url('/unidades') ?>"><i class="fas fa-window-maximize"></i>Unidades<span class="sr-only">(current)</span></a>
         <a class="nav-link" href="<?php echo base_url('/productos') ?>"><i class="fas fa-tv"></i>Productos<span class="sr-only">(current)</span></a>
-
-      
-    </ul>
-  <ul class="navbar-nav mr-auto">
+      <!-- <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div> -->
+</ul>
+   
+<ul class="nav-item dropdown">
+    <!-- <li class="nav-item "> -->
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-expanded="false"><i class="fas fa-tools"></i>Administracion</a>
+    <div class="dropdown-menu">
+    <a class="nav-link" href="<?php echo base_url('/configuracion') ?>"><i class="fas fa-window-restore"></i>Configuracion<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/unidades') ?>"><i class="fas fa-window-maximize"></i>Unidades<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/productos') ?>"><i class="fas fa-tv"></i>Productos<span class="sr-only">(current)</span></a>
+      <!-- <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div> -->
+</ul>
+ 
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="dropdown-item" href="<?php echo base_url('/salir') ?>"><i class="fas fa-user fa-fw"></i>Salir <span class="sr-only">(current)</span></a>
       

@@ -70,7 +70,7 @@ class categorias extends BaseController
     public function editar($id){
         $unidad = $this->categorias->where('id', $id)->first();
         $data =[
-            'titulo' => 'Creando Nuevo', 'datos' => $unidad
+            'titulo' => 'Editando Categorias', 'datos' => $unidad
         ];
         echo view('header');
         echo view('inicio');

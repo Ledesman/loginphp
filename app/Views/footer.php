@@ -14,7 +14,7 @@
                         <div class="d-flex align-items-center justify-content-between small">
                             <div class="text-muted">Copyright &copy; Pizzaeria Ibarreta <?php echo date('Y') ?></div>
                             <div>
-                                <a href="https://facebook.com/pizzeeriaIbarerta" target="_black">Facebbok</a>
+                                <a href="https://facebook.com/pizzeeriaIbarerta" target="_black">Facebook</a>
                                 &middot;
                                 <a href="https://pizzeeriaIbarerta/public/" target="_black">Sitio Web</a>
 

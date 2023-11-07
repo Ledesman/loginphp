@@ -1,0 +1,1158 @@
+WARNING - 2023-11-07 11:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 11:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 11:39:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 11:39:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 11:39:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 11:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 11:39:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 11:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 11:39:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 11:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 11:39:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 11:39:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 11:39:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 11:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 11:39:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 11:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 11:39:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 11:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 11:39:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 11:39:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 11:39:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 11:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 11:39:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 11:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 11:39:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 11:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 11:39:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:42:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:42:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:43:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:44:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:44:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:44:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:44:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 12:44:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 12:44:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 12:44:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:44:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:44:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:46:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:46:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:46:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:47:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:48:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:48:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:49:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:49:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:49:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:49:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:49:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:51:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:51:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:52:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:53:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:53:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:53:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:53:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:53:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:53:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 12:53:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 12:53:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 12:53:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:54:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:54:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:54:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:54:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:54:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:54:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:54:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:54:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 12:54:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 12:54:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 12:54:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 12:59:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:59:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:00:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:00:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:00:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:00:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:00:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:00:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:00:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:00:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 13:00:57 --> Undefined property: App\Controllers\clientes::$unidades
+in APPPATH\Controllers\Clientes.php on line 102.
+ 1 APPPATH\Controllers\Clientes.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\clientes::$unidades', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Clientes.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:01:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:01:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:01:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:01:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:01:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:01:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:01:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:01:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 13:01:55 --> Undefined property: App\Controllers\clientes::$cliente
+in APPPATH\Controllers\Clientes.php on line 102.
+ 1 APPPATH\Controllers\Clientes.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\clientes::$cliente', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Clientes.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:03:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:03:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:03:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:03:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:03:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:03:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:03:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:03:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:03:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:03:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:03:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:03:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:03:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:03:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:03:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:03:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:03:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:03:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:03:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:03:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:03:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:03:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:03:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:09:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:09:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:09:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:09:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:09:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:09:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:09:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:10:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:10:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:11:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:11:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:11:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:11:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:11:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:11:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:11:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:11:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(95): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:11:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:11:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:11:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:11:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:11:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:11:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:11:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:11:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:11:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(96): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:11:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(96): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:11:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(96): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:14:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:14:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:14:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:14:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:14:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(96): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('css', 'styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:14:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(96): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 13:14:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\editar.php on line 23.
+ 1 APPPATH\Views\clientes\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(96): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\clientes->editar('assets', 'demo', 'datatables-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:14:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:14:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:23:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:31:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:32:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:33:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:34:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:40:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:40:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 13:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:40:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Unidades::$unidades is deprecated in APPPATH\Controllers\Unidades.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Unidades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:40:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$productos is deprecated in APPPATH\Controllers\Productos.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:40:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-07 13:40:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:40:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:40:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 13:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 13:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 13:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 13:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 13:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 13:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:45:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 13:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:46:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\clientes::$reglas is deprecated in APPPATH\Controllers\Clientes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

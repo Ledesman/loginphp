@@ -51,7 +51,14 @@ $routes->get('/productos/reingresar/(:any)', 'Productos::reingresar/$1');
 $routes->post('/productos/actualizar', 'Productos::actualizar');
 $routes->get('/productos/editar/(:any)', 'Productos::editar/$1');
 
-
+$routes->get('/clientes', 'Clientes::index');
+$routes->get('/clientesNuevo', 'Clientes::nuevo');
+$routes->post('/clientes/insertar', 'Clientes::insertar');
+$routes->get('/clientes/editar/(:any)', 'Clientes::editar/$1');
+$routes->post('/clientes/actualizar', 'Clientes::actualizar');
+$routes->get('/clientes/eliminar/(:any)', 'Clientes::eliminar/$1');
+$routes->get('clientes/eliminados', 'Clientes::eliminados');
+$routes->get('/clientes/reingresar/(:any)', 'Clientes::reingresar/$1');
 
 
 
