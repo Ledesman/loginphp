@@ -60,7 +60,10 @@ $routes->get('/clientes/eliminar/(:any)', 'Clientes::eliminar/$1');
 $routes->get('clientes/eliminados', 'Clientes::eliminados');
 $routes->get('/clientes/reingresar/(:any)', 'Clientes::reingresar/$1');
 
+$routes->get('/configuracion', 'Configuracion::index');
 
+$routes->post('configuracion/actualizar', 'Configuracion::actualizar');
+$routes->get('/configuracion/editar/(:any)', 'Configuracion::editar/$1');
 
 
 

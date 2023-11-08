@@ -1,14 +1,15 @@
 <?php namespace App\Controllers;
    
-   use App\Models\UnidadesModel;
+   use App\Models\ConfiguracionModel;
 
-class Unidades extends BaseController
+class Configuracion extends BaseController
 {
 
     protected $reglas;
 
     public function __construct(){
-       $this->unidades = new UnidadesModel();
+       $this->configuracion = new ConfiguracionModel();
+
        helper(['form']);
        $this->reglas = 
        ['nombre' =>[
@@ -18,126 +19,83 @@ class Unidades extends BaseController
          ]
          ],
     
-       'nombre_corto' =>[
-        'rules' => 'required',
-        'errors' =>[
-           'required' => 'El campo {field} es obligatorio.'
-        ]
-        ]
+       
          ];
        
     }
-
-    public function index( $activo =1){
-
-        $unidades = $this->unidades->where('activo', $activo)->findAll();
-        $data =[
-            'titulo' => 'unidades', 'datos' => $unidades
-        ];
-
-        echo view('header');
-        echo view('inicio');
-        echo view('unidades', $data );
-        echo view('footer');
-    }
-
-    public function eliminados ($activo =0){
-
-        $unidades = $this->unidades->where('activo', $activo)->findAll();
-        $data =[
-            'titulo' => 'unidades Eliminados', 'datos' => $unidades
-        ];
-
-        echo view('header');
-        echo view('inicio');
-        echo view('unidades/eliminados', $data );
-        echo view('footer');
-    }
-    public function reingresar($id){
-    
-        $this->unidades->update($id, ['activo' =>1]);
-                return redirect()->to(base_url().'/unidades');
-           
-        }
     public function nuevo(){
         $data =[
             'titulo' => 'Creando Nuevo'
         ];
         echo view('header');
         echo view('inicio');
-        echo view('unidades/nuevo', $data );
+        echo view('configuracion/nuevo', $data );
         echo view('footer');
     }
 
-    public function insertar(){
-       if ($this->request->getMethod()=="post" && $this->validate($this->reglas)) {
-           $datos =[
-            "nombre" => $_POST['nombre'],
-            "nombre_corto" => $_POST['nombre_corto'],
-            
-        ];
-        $Crud = new  UnidadesModel();
 
-        $respuesta = $Crud->insertar($datos);
-            return redirect()->to(base_url().'/unidades');
-       }else{
+    public function index( $activo =1){
+        $config = $this->configuracion->where('activo', $activo)->findAll();
         $data =[
-            'titulo' => 'Creando Nuevo', 'validation'=>$this->validator
+            'titulo' => 'configuraciones', 'datos' => $config
         ];
+
         echo view('header');
         echo view('inicio');
-        echo view('unidades/nuevo', $data );
+        echo view('configuracion', $data );
         echo view('footer');
-       }
-
-       
-    
-        
-        // $this->unidades->save(['nombre' => $this->request->getPost('nombre'),
-        // 'nombre_corto' => $this->request->getPost('nombre_corto')]);
-
-        // return redirect()->to(base_url().'');
     }
+
+
     public function editar($id, $valid=null){
 
-        $unidad = $this->unidades->where('id', $id)->first();
+        $config = $this->configuracion->where('id', $id)->first();
         if ($valid != null) {
              $data =[
-            'titulo' => 'Creando Nuevo', 'datos' => $unidad, 'validation' =>$valid
+            'titulo' => 'Actualizado', 'datos' => $config, 'validation' =>$valid
         ];
         }else{
             $data =[
-                'titulo' => 'Creando Nuevo', 'datos' => $unidad
+                'titulo' => 'Nuevos Cambios', 'datos' => $config
             ];
         }
         
        
         echo view('header');
         echo view('inicio');
-        echo view('unidades/editar', $data );
+        echo view('configuracion/editar', $data );
         echo view('footer');
     }
    
     public function actualizar(){
-        if ($this->request->getMethod()=="post" && $this->validate($this->reglas)) {
-
-        $this->unidades->update($this->request->getPost('id'), ['nombre' => $this->request->getPost('nombre'),
-        'nombre_corto' => $this->request->getPost('nombre_corto')]);
-                return redirect()->to(base_url().'/unidades');
-        }
-        else{
-            return $this->editar($this->request->getPost('id'), $this->validator);
-        }
        
+        if ($this->request->getMethod()=="post" && $this->validate($this->reglas)) {
+            $this->configuracion->update($this->request->getPost('id'), [
+                'nombre' => $this->request->getPost('nombre'),
+            'Tiket_leyenda' => $this->request->getPost('Tiket_leyenda'),
+            'Tienda_rfc' => $this->request->getPost('Tienda_rfc'),
+            'Tienda_telefono' => $this->request->getPost('Tienda_telefono'),
+            'Tienda_email' => $this->request->getPost('Tienda_email'),
+            'Tienda_direccion' => $this->request->getPost('Tienda_direccion'),
+            ]);
+           
+        return redirect()->to(base_url().'/configuracion');
+            }
+            else{
+                return $this->editar($this->request->getPost('id'), $this->validator);
+            }
+        
+        //}
+       // $this->configuracion->update($this->request->getPost('id'), [
+         //   'tienda_nombre' => $this->request->getPost('tienda_nombre'),
+            //  ]);
+            // return redirect()->to(base_url().'/configuracion');
+       // }
+        
     
         }
 
-        public function eliminar($id){
-    
-            $this->unidades->update($id, ['activo' =>0]);
-                    return redirect()->to(base_url().'/unidades');
-               
-            }
+       
 
 
 }    

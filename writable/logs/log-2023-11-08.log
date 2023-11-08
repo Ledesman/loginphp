@@ -1,0 +1,1813 @@
+INFO - 2023-11-08 18:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 18:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 18:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 18:25:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 18:25:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 18:31:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 18:32:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 18:32:07 --> Undefined variable $nombre
+in APPPATH\Views\configuracion.php on line 27.
+ 1 APPPATH\Views\configuracion.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(65): view('configuracion', [...])
+ 6 APPPATH\Controllers\Configuracion.php(88): App\Controllers\Configuracion->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 18:33:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 18:33:52 --> Undefined variable $nombre
+in APPPATH\Views\configuracion.php on line 27.
+ 1 APPPATH\Views\configuracion.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(65): view('configuracion', [...])
+ 6 APPPATH\Controllers\Configuracion.php(88): App\Controllers\Configuracion->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 18:34:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 18:34:15 --> Undefined variable $nombre
+in APPPATH\Views\configuracion.php on line 27.
+ 1 APPPATH\Views\configuracion.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(65): view('configuracion', [...])
+ 6 APPPATH\Controllers\Configuracion.php(88): App\Controllers\Configuracion->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 18:36:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 18:39:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 18:48:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 18:48:21 --> Undefined variable $dato
+in APPPATH\Views\configuracion.php on line 7.
+ 1 APPPATH\Views\configuracion.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(54): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 18:48:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 18:48:57 --> Undefined variable $dato
+in APPPATH\Views\configuracion.php on line 7.
+ 1 APPPATH\Views\configuracion.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(54): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 18:51:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 18:51:48 --> Undefined variable $id
+in APPPATH\Views\configuracion.php on line 7.
+ 1 APPPATH\Views\configuracion.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(55): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 18:53:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 18:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 18:53:30 --> Undefined variable $id
+in APPPATH\Views\configuracion.php on line 7.
+ 1 APPPATH\Views\configuracion.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(55): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 19:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:08:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:08:59 --> Undefined variable $id
+in APPPATH\Views\configuracion.php on line 109.
+ 1 APPPATH\Views\configuracion.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 109)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:09:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:12:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:12:27 --> Undefined array key "Tienda_rfc"
+in APPPATH\Views\configuracion.php on line 29.
+ 1 APPPATH\Views\configuracion.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tienda_rfc"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:13:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:13:17 --> Undefined array key "Tienda_rfc"
+in APPPATH\Views\configuracion.php on line 29.
+ 1 APPPATH\Views\configuracion.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tienda_rfc"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:14:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:14:53 --> Undefined array key "Tienda_telefono"
+in APPPATH\Views\configuracion.php on line 34.
+ 1 APPPATH\Views\configuracion.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tienda_telefono"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:15:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:15:13 --> Undefined array key "Tienda_rfc"
+in APPPATH\Views\configuracion.php on line 29.
+ 1 APPPATH\Views\configuracion.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tienda_rfc"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:16:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:16:07 --> Undefined array key "Tienda_rfc"
+in APPPATH\Views\configuracion.php on line 29.
+ 1 APPPATH\Views\configuracion.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tienda_rfc"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:16:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:16:09 --> Undefined array key "Tienda_rfc"
+in APPPATH\Views\configuracion.php on line 29.
+ 1 APPPATH\Views\configuracion.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tienda_rfc"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:16:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:16:11 --> Undefined array key "Tienda_rfc"
+in APPPATH\Views\configuracion.php on line 29.
+ 1 APPPATH\Views\configuracion.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tienda_rfc"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:16:58 --> Undefined array key "Tienda_rfc"
+in APPPATH\Views\configuracion.php on line 29.
+ 1 APPPATH\Views\configuracion.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tienda_rfc"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:18:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:19:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:22:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:22:50 --> Undefined variable $dato
+in APPPATH\Views\configuracion.php on line 23.
+ 1 APPPATH\Views\configuracion.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:22:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:22:59 --> Trying to access array offset on value of type int
+in APPPATH\Views\configuracion.php on line 23.
+ 1 APPPATH\Views\configuracion.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 19:23:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:27:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:37:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:38:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:38:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:40:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:41:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:41:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:42:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:42:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 19:42:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 19:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 19:42:33 --> Cannot access offset of type string on string
+in APPPATH\Views\configuracion.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:10:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:10:05 --> Cannot access offset of type string on string
+in APPPATH\Views\configuracion.php on line 22.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:11:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:11:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:11:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:11:28 --> Cannot access offset of type string on string
+in APPPATH\Views\configuracion.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:11:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:11:28 --> Cannot access offset of type string on string
+in APPPATH\Views\configuracion.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:14:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:14:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:14:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:14:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:14:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:14:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:14:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:14:18 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:14:18 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:14:18 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:15:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:15:25 --> Undefined variable $dato
+in APPPATH\Views\configuracion\editar.php on line 29.
+ 1 APPPATH\Views\configuracion\editar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion\\editar.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:16:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:16:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:16:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:16:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:16:26 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:16:26 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:16:26 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:17:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:17:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:17:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:17:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:17:33 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:17:33 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:17:33 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:20:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:14 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:14 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:14 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:20:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:35 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:35 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:35 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:20:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:20:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:49 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:49 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:49 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:20:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:20:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:20:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:54 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:54 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:20:54 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:21:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:22:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:22:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:22:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:22:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:22:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:22:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:22:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:22:51 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:22:51 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:22:51 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:23:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:24:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-08 20:24:35 --> mysqli_sql_exception: Unknown column 'valor' in 'field list' in C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `configu...', 0)
+#1 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configu...')
+#2 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configu...')
+#3 C:\xampp\htdocs\pizeria\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `configu...', Array, false)
+#4 C:\xampp\htdocs\pizeria\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pizeria\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\pizeria\system\Model.php(776): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\pizeria\app\Controllers\Configuracion.php(75): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(919): App\Controllers\Configuracion->actualizar()
+#9 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#10 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pizeria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-08 20:24:35 --> Unknown column 'valor' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `valor` = :valor:, `updated_at` = :updated_at:
+WHERE `nombre` IN :nombre:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Configuracion.php(75): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->actualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:29:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:29:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:29:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:29:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:29:36 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:29:36 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:29:36 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:29:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 20:29:56 --> Undefined property: App\Controllers\Configuracion::$productos
+in APPPATH\Controllers\Configuracion.php on line 73.
+ 1 APPPATH\Controllers\Configuracion.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Configuracion::$productos', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Configuracion.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:31:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:31:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:31:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:31:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:31:09 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:31:09 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:31:09 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:31:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:31:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:31:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:31:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:31:11 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:31:11 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:31:11 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:31:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-08 20:31:29 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `configu...', 0)
+#1 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configu...')
+#2 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configu...')
+#3 C:\xampp\htdocs\pizeria\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `configu...', Array, false)
+#4 C:\xampp\htdocs\pizeria\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pizeria\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pizeria\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pizeria\app\Controllers\Configuracion.php(73): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(919): App\Controllers\Configuracion->actualizar()
+#9 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#10 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pizeria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-08 20:31:29 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `nombre` = :nombre:, `updated_at` = :updated_at:
+WHERE `configuracion`.`id` IN :configuracion.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Configuracion.php(73): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->actualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:34:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:34:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:34:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:34:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:34:12 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:34:12 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:34:12 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:34:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:34:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:34:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:34:20 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:34:20 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:34:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:34:20 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:34:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-08 20:34:42 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `configu...', 0)
+#1 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `configu...')
+#2 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `configu...')
+#3 C:\xampp\htdocs\pizeria\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `configu...', Array, false)
+#4 C:\xampp\htdocs\pizeria\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\pizeria\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\pizeria\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\pizeria\app\Controllers\Configuracion.php(73): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(919): App\Controllers\Configuracion->actualizar()
+#9 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#10 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pizeria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-08 20:34:42 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `configuracion` SET `nombre` = :nombre:, `Tiket_leyenda` = :Tiket_leyenda:, `Tienda_rfc` = :Tienda_rfc:, `Tienda_telefono` = :Tienda_telefono:, `Tienda_email` = :Tienda_email:, `Tienda_direccion` = :Tienda_direccion:, `updated_at` = :updated_at:
+WHERE `configuracion`.`id` IN :configuracion.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Configuracion.php(73): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->actualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:36:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:36:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:36:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:36:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:36:52 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:36:52 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:36:52 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:36:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:36:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:36:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:36:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:36:54 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:36:54 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 20:36:54 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:37:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 20:37:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 20:37:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 20:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:12:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:12:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:12:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:12:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:12:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:12:51 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:12:51 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:12:51 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:14:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:14:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:14:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:14:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:14:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:14:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:14:37 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:14:37 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:14:37 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:14:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:14:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:20:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:20:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:21:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:21:15 --> Undefined array key "Tienda_direccion"
+in APPPATH\Views\configuracion.php on line 49.
+ 1 APPPATH\Views\configuracion.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tienda_direccion"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(45): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:22:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:22:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:25:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:25:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:25:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:25:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:25:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:25:31 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:25:31 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:25:31 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:26:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-08 21:26:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:26:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:26:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:26:10 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('css', 'styles.css')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:26:10 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('js', 'scripts.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 21:26:10 --> Call to a member function listErrors() on string
+in APPPATH\Views\configuracion\editar.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('configuracion/editar', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(66): view('configuracion/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Configuracion->editar('assets', 'demo', 'datatables-demo.js')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:26:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-08 21:26:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Configuracion::$configuracion is deprecated in APPPATH\Controllers\Configuracion.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Configuracion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-08 21:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
