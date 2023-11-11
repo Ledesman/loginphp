@@ -1,0 +1,1072 @@
+INFO - 2023-11-10 13:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 13:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:05:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 13:05:46 --> Undefined variable $dato
+in APPPATH\Views\usuarios.php on line 58.
+ 1 APPPATH\Views\usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(70): view('usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:06:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 13:06:36 --> Undefined variable $dato
+in APPPATH\Views\usuarios.php on line 58.
+ 1 APPPATH\Views\usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(70): view('usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:06:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 13:06:44 --> Undefined array key "id"
+in APPPATH\Views\usuarios.php on line 58.
+ 1 APPPATH\Views\usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(70): view('usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:07:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:08:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:22:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:22:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:22:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:23:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:23:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:23:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:25:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 13:25:31 --> Undefined array key "id"
+in APPPATH\Views\usuarios.php on line 32.
+ 1 APPPATH\Views\usuarios.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(71): view('usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:26:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:27:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:27:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:28:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:28:30 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(99): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:30:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:30:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(99): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:44:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:44:01 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(99): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:44:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:44:10 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(99): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:44:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:44:25 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(99): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:44:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:44:52 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(99): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:45:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:45:11 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(99): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:45:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:45:18 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(99): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:45:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:45:26 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(99): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:57:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:57:12 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(94): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 13:57:12 --> Undefined variable $variable
+in APPPATH\Views\usuarios\nuevo.php on line 43.
+ 1 APPPATH\Views\usuarios\nuevo.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(94): view('usuarios/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 13:57:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:57:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 13:57:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 13:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:06:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:06:04 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 14:06:04 --> Undefined variable $cajas
+in APPPATH\Views\usuarios\nuevo.php on line 43.
+ 1 APPPATH\Views\usuarios\nuevo.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cajas', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:08:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:09:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:12:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:12:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:12:09 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:17:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:17:23 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:17:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:17:26 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:18:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:18:52 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:20:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:20:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:20:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:20:52 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:20:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:20:54 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:21:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:21:10 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:21:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:21:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:21:19 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:22:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:22:21 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:42:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:42:01 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:43:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:43:47 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:44:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 14:44:16 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'carlos', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Usuarios.php(105): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 14:44:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 14:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 14:44:57 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:05:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:05:44 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:05:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:05:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:05:49 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:06:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 21:06:18 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'carlos', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Usuarios.php(105): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:17:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:17:53 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:17:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:17:55 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:18:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:18:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:18:25 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:18:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 21:18:45 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'carlos', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Usuarios.php(105): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:23:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:23:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:23:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:23:38 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:23:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:23:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:23:43 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:24:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 21:24:03 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'carlos', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Usuarios.php(105): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:26:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:26:20 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:26:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 21:26:22 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', '', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Usuarios.php(105): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:26:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:26:24 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:28:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:28:52 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:28:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:28:53 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:29:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:29:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:29:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:29:46 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:30:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 21:30:06 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'carlos', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Usuarios.php(105): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:35:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:35:07 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:35:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:35:08 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:35:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:36:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:36:00 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(100): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:36:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-10 21:36:21 --> "required " is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'pizzeria', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Usuarios.php(105): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->insertar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:38:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:38:03 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(97): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:38:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:38:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(97): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:39:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:39:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:39:41 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$validation is deprecated in APPPATH\Views\usuarios\nuevo.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\usuarios\\nuevo.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuarios/nuevo', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(97): view('usuarios/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:40:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:40:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-10 21:41:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-10 21:41:27 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\pizeria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pizeria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pizeria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pizeria\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pizeria\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pizeria\app\Controllers\Usuarios.php(153): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(919): App\Controllers\Usuarios->editar('1')
+#8 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\xampp\htdocs\pizeria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pizeria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-10 21:41:27 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Usuarios.php(153): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuarios->editar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-10 21:55:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuarios::$usuarios is deprecated in APPPATH\Controllers\Usuarios.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Usuarios->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 21:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 21:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 21:55:22 --> Undefined array key "type"
+in APPPATH\Controllers\Home.php on line 29.
+ 1 APPPATH\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "type"', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Home.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 21:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 21:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 21:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 21:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 21:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 21:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 21:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 21:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 21:58:58 --> Undefined array key "type"
+in APPPATH\Controllers\Home.php on line 29.
+ 1 APPPATH\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "type"', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Home.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-10 22:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

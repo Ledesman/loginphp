@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -43,8 +45,8 @@
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-expanded="false"><i class="fas fa-tools"></i>Administracion</a>
     <div class="dropdown-menu">
     <a class="nav-link" href="<?php echo base_url('/configuracion') ?>"><i class="fas fa-window-restore"></i>Configuracion<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="<?php echo base_url('/unidades') ?>"><i class="fas fa-window-maximize"></i>Unidades<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="<?php echo base_url('/productos') ?>"><i class="fas fa-tv"></i>Productos<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/usuarios') ?>"><i class="fas fa-window-maximize"></i>Usuarios<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/loginP') ?>"><i class="fas fa-tv"></i>LoginP<span class="sr-only">(current)</span></a>
       <!-- <div class="dropdown-divider"></div>
       <a class="dropdown-item" href="#">Separated link</a>
     </div> -->

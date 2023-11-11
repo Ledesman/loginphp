@@ -16,6 +16,7 @@ class Home extends BaseController
     }
     public function login(){
 
+      
         $usuario = $this->request->getPost('usuario');
         $password = $this->request->getPost('password');
 
@@ -26,7 +27,9 @@ class Home extends BaseController
          password_verify($password, $datosUsuario[0]['password'])) {
             $data = [
                 "usuario" => $datosUsuario[0]['usuario'],
-                "type" => $datosUsuario[0]['type']
+                "type" => $datosUsuario[0]['type'],
+
+        
             ];
 
             $session = session();
@@ -60,4 +63,3 @@ class Home extends BaseController
     }
 
 }
-

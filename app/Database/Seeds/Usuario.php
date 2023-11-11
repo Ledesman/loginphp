@@ -10,12 +10,12 @@ class Usuario extends Seeder
     {
         $usuario = "admin";
         $password = password_hash("123",PASSWORD_DEFAULT);
-        $type = "admin";
+        $nombre = "carlos";
         
         $data = [
             'usuario' => $usuario,
             'password'    => $password,
-            'type' => $type
+            'nombre' => $nombre
         ];
 
        
