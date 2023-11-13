@@ -1,5 +1,7 @@
+<?php
+$user_sesion = session();
 
-
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -47,6 +49,8 @@
     <a class="nav-link" href="<?php echo base_url('/configuracion') ?>"><i class="fas fa-window-restore"></i>Configuracion<span class="sr-only">(current)</span></a>
         <a class="nav-link" href="<?php echo base_url('/usuarios') ?>"><i class="fas fa-window-maximize"></i>Usuarios<span class="sr-only">(current)</span></a>
         <a class="nav-link" href="<?php echo base_url('/loginP') ?>"><i class="fas fa-tv"></i>LoginP<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/cambiarPass') ?>"><i class="fas fa-tv"></i>Cambair Contraseña<span class="sr-only">(current)</span></a>
+
       <!-- <div class="dropdown-divider"></div>
       <a class="dropdown-item" href="#">Separated link</a>
     </div> -->
@@ -54,8 +58,8 @@
  
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="dropdown-item" href="<?php echo base_url('/salir') ?>"><i class="fas fa-user fa-fw"></i>Salir <span class="sr-only">(current)</span></a>
-      
+        <a class="dropdown-item" href="<?php echo base_url('/salir') ?>" ><i class="fas fa-user fa-fw"></i><?php echo session('usuario'); ?>Salir <span class="sr-only">(current)</span></a>
+        
     </ul>
   
   </div>

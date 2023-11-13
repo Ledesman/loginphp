@@ -28,7 +28,7 @@
                               <tr>
                         <td><?php echo $dato['id_usuario']; ?></td>
                         <td><?php echo $dato['usuario']; ?></td>
-                        <td><?php echo $dato['nombre']; ?></td>
+                        <td><?php echo $dato['type']; ?></td>
                         <td><a class="btn btn-primary" href="<?php echo base_url().'usuarios/editar/'. $dato['id_usuario']; ?>" >
                         <i class="fas fa-pencil-alt"></i></a>
                         </td>

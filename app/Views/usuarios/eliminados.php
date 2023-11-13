@@ -6,7 +6,7 @@
                            
                                 <i class="fas fa-table mr-1"></i>
                                
-                        <a class="btn btn-warning" href="<?php echo base_url(); ?>unidades"">Unidades</a>
+                        <a class="btn btn-warning" href="<?php echo base_url(); ?>usuarios"">Usuarios</a>
                         
                                 <h1><?php echo $titulo; ?></h1>
                             </div>
@@ -27,19 +27,14 @@
                                 <?php foreach ($datos as $dato ) { ?>
                                 
                               <tr>
-                        <td><?php echo $dato['id']; ?></td>
-                        <td><?php echo $dato['nombre']; ?></td>
-                        <td><?php echo $dato['nombre_corto']; ?></td>
-                        <!-- <td><a class="btn btn-primary" href="<?php echo base_url().'unidades/reingresar/'. $dato['id']; ?>" >
-                        <i class="fas fa-arrow-alt-circle-up"></i></a>
-                        </td> -->
-                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#modal-confirma" data-placement="top" title="Reingresar la Unidad" class="btn btn-danger" href="#" data-href="<?php echo base_url().'unidades/reingresar/'. $dato['id']; ?>" >
+                        <td><?php echo $dato['id_usuario']; ?></td>
+                        <td><?php echo $dato['usuario']; ?></td>
+                        <td><?php echo $dato['type']; ?></td>
+                        
+                        <td><a class="btn btn-primary" data-toggle="modal" data-target="#modal-confirma" data-placement="top" title="Reingresar la Unidad" class="btn btn-danger" href="#" data-href="<?php echo base_url().'usuarios/reingresar/'. $dato['id_usuario']; ?>" >
                         <i class="fas fa-arrow-alt-circle-up"></i></a></td>
                         
-                    
-                         
                                 </tr>
-                              
                               
                                     <?php  }  ?>
                                 </tbody>
@@ -53,13 +48,13 @@
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Reincresar Unidad</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Reincresar Usuario</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <p>¿Desea reingresar esta unidad?</p>
+        <p>¿Desea reingresar este usuario?</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-ligth" data-dismiss="modal">Cancelar</button>

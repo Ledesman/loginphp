@@ -10,7 +10,7 @@
         protected $returnType     = 'array';
         protected $useSoftDeletes = false;
     
-        protected $allowedFields = ['usuario', 'password', 'nombre', 
+        protected $allowedFields = ['usuario', 'password', 'type', 
         'id_caja', 'id_rol', 'activo'];
     
         // Dates

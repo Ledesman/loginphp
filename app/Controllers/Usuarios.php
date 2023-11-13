@@ -8,7 +8,7 @@ class Usuarios extends BaseController
 {
 
     protected $reglas, $cajas, $roles,
-    $reglasLogin;
+    $reglasLogin, $reglasCambia;
 
     public function __construct(){
        $this->usuarios = new UsuariosModel();
@@ -68,21 +68,49 @@ class Usuarios extends BaseController
         ]
         ]
          ];
+         $this->reglasCambia =
+         ['type' =>[
+          'rules' => 'required',
+          'errors' =>[
+             'required' => 'El campo {field} es obligatorio.'
+            
+           ]
+           ],
+         'password' =>[
+          'rules' => 'required',
+          'errors' =>[
+             'required' => 'El campo {field} es obligatorio.'
+          ]
+          ]
+           ];
 
     }
 
-    public function index( $activo =1){
+    public function versesio(){
+        $mensaje = session('mensaje');
 
-        $usuarios = $this->usuarios->where('activo', $activo)->findAll();
+        return view('usuarios', ["mensaje" => $mensaje ]);
+    }
+    public function index( $activo =1){
+      
+
+        $usuario = $this->usuarios->where('activo', $activo)->findAll();
+        
         $data =[
-            'titulo' => 'Usuarios', 'datos' => $usuarios
+            'titulo' => 'Usuarios', 'datos' => $usuario
         ];
+        $session = session();
+        $session->set($data);
 
         echo view('header');
         echo view('inicio');
-        echo view('usuarios', $data );
-        echo view('footer');
+         echo view('usuarios', $data );
+        echo view('footer'); 
+  
     }
+
+        
+
 
     public function eliminados ($activo =0){
 
@@ -121,23 +149,13 @@ class Usuarios extends BaseController
             $datos =[
                 "usuario" => $_POST['usuario'],
                 "password"=> $hash,
-                "nombre"=> $_POST['nombre'],
+                "type"=> $_POST['type'],
                  "id_caja" => $_POST['id_caja'],
                 "id_rol" => $_POST['id_rol'],
                 'activo' => 1
     
     
             ];
-
-        //   $this->usuarios->save([
-        //     'usuario'=>$this->request->getPost('usuario'),
-        //     'password'=> $hash,
-        //     'id_caja'=>$this->request->getPost('id_caja'),
-        //     'id_rol'=>$this->request->getPost('id_rol'),
-        //     'activo' => 1
-
-        //   ]);
-          //return redirect()->to(base_url().'/usuarios');
         
         $Crud = new  UsuariosModel();
 
@@ -163,22 +181,19 @@ class Usuarios extends BaseController
         // return redirect()->to(base_url().'');
     }
     public function editar($id, $valid=null){
+      
+        $sesion = session();
 
-        $unidad = $this->usuarios->where('id_usuario', $id)->first();
-        if ($valid != null) {
-             $data =[
-            'titulo' => 'Editando Usuario', 'datos' => $unidad, 'validation' =>$valid
+        $usuario = $this->usuarios->where('id_usuario', $id)->first();
+         $cajas = $this->cajas->where('activo', 1)->findAll();
+         $roles = $this->roles->where('activo', 1)->findAll();
+
+        $data =[
+            'titulo' => 'Editando Usuario', 'usuario'=> $usuario,'cajas' =>$cajas,'roles' =>$roles,
         ];
-        }else{
-            $data =[
-                'titulo' => 'Editando Nuevo Usuario', 'datos' => $unidad
-            ];
-        }
-
-
         echo view('header');
         echo view('inicio');
-        echo view('usuarios/editar', $data );
+        echo view('usuarios/nuevo', $data );
         echo view('footer');
     }
 
@@ -214,7 +229,7 @@ class Usuarios extends BaseController
                     if ($datosUsuario =! null) {
                         if (password_verify($password, $datosUsuario['password'])) {
                             $datosSession =[
-                                "id_usuario" => $datosUsuario['id_usuario '],
+                                "id_usuario" => $datosUsuario['id_usuario'],
                               "type" => $datosUsuario['type'],
                               "id_caja" => $datosUsuario['id_caja'],
                               "id_rol" => $datosUsuario['id_rol']
@@ -240,4 +255,68 @@ class Usuarios extends BaseController
                     echo view('login', $data);
                 }
      }
+     public function logout(){
+        $session = session();
+        $session->destroy();
+        return redirect()->to(base_url('/'));
+     }
+     public function cambiaPassword($activo =1){
+        $session = session();
+        // $session->set($data);
+        $usuario = $this->usuarios->where('activo', $activo)->first();
+         
+        $data =[
+            'titulo' => 'Cambio Contraseña de Usuario', 'usuario'=> $usuario
+        ];
+       
+        echo view('header');
+        echo view('inicio');
+        echo view('cambia_password', $data );
+        echo view('footer');
+     }
+
+     public function actualizar_pass($activo =1){
+        if ($this->request->getMethod()=="post" && $this->validate($this->reglasCambia)) {
+            $sesion = session();
+            $idUsuario = $sesion->id_usuario;
+
+ $hash= password_hash($this->request->getPost('password'), PASSWORD_DEFAULT);
+
+            $this->usuarios->update($this->request->getPost($idUsuario), 
+            [
+                'password' => $hash,
+                'type' => $this->request->getPost('type'),
+
+        ]);
+                 
+       // $usuario = $this->usuarios->where('id_usuario', $sesion->id_usuario)->first();
+        $usuario = $this->usuarios->where('activo', $activo)->first();
+         
+        $data =[
+            'titulo' => 'Cambio Contraseña de Usuario', 'usuario'=> $usuario,'mensaje'=>
+            'cambio de contraseña correcto'
+        ];
+       
+        echo view('header');
+        echo view('inicio');
+        echo view('cambia_password', $data );
+        echo view('footer');
+       }else{
+        $session = session();
+        // $session->set($data);
+        $usuario = $this->usuarios->where('activo', $activo)->first();
+         
+        $data =[
+            'titulo' => 'Cambio Contraseña de Usuario', 'usuario'=> $usuario,
+            'validation' => $this->validator
+        ];
+       
+        echo view('header');
+        echo view('inicio');
+        echo view('cambia_password', $data );
+        echo view('footer');
+       }
+
+     }
+
 }

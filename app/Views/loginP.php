@@ -1,4 +1,7 @@
+<?php
+$user_sesion = session();
 
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,6 +16,7 @@
     </head>
     <body class="bg-primary">
         <div id="layoutAuthentication">
+        <?php print_r($user_sesion->nombre); ?>
             <div id="layoutAuthentication_content">
                 <main>
                     <div class="container">

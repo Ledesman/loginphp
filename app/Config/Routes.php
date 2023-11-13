@@ -10,8 +10,7 @@ $routes->get('/inicio', 'Home::inicio');
 $routes->get('/login', 'Home::login');
 $routes->post('/login', 'Home::login');
 $routes->get('/salir', 'Home::salir');
-$routes->get('/vistaCrear', 'Home::vistaCrear');
-$routes->post('usuarios/valida', 'Home::valida');
+
 
 $routes->get('/listado', 'Crud::index');
 $routes->post('/actualizar', 'Crud::actualizar');
@@ -71,8 +70,12 @@ $routes->get('/loginP', 'Usuarios::login');
 $routes->post('usuarios/validar', 'Usuarios::valida');
 
 $routes->get('/usuariosNuevo', 'Usuarios::nuevo');
+$routes->get('/cambiarPass', 'Usuarios::cambiaPassword');
 $routes->post('/usuarios/insertar', 'Usuarios::insertar');
 $routes->get('/usuarios/editar/(:any)', 'Usuarios::editar/$1');
+$routes->get('/usuarios/editar/(:any)', 'Usuarios::editar/$1');
+$routes->post('actualizar_pass', 'Usuarios::actualizar_pass');
+
 $routes->post('/usuarios/actualizar', 'Usuarios::actualizar');
 $routes->get('/usuarios/eliminar/(:any)', 'Usuarios::eliminar/$1');
 $routes->get('usuarios/eliminados', 'Usuarios::eliminados');
