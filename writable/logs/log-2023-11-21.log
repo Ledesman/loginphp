@@ -1,0 +1,497 @@
+INFO - 2023-11-21 17:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 17:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 17:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 17:16:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 17:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 17:18:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 17:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 17:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 17:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 17:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 17:18:28 --> Undefined property: App\Controllers\Shop_Car::$load
+in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 APPPATH\Controllers\Shop_Car.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop_Car::$load', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Shop_Car.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 17:36:03 --> Class "App\Controllers\shop_carModel" not found
+in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 17:36:13 --> Class "App\Controllers\shop_carModel" not found
+in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:37:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:37:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:37:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 17:37:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Shop_Car.php(19): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:39:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:39:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:39:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 17:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 17:39:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:39:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:39:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 17:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 17:39:47 --> Attempt to read property "imagen" on array
+in APPPATH\Views\shoping_car.php on line 20.
+ 1 APPPATH\Views\shoping_car.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\shoping_car.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\shoping_car.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('shoping_car', [], true)
+ 5 APPPATH\Controllers\Shop_Car.php(26): view('shoping_car', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:41:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:41:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:41:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 17:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 17:41:40 --> Attempt to read property "imagen" on array
+in APPPATH\Views\shoping_car.php on line 20.
+ 1 APPPATH\Views\shoping_car.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\shoping_car.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\shoping_car.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('shoping_car', [], true)
+ 5 APPPATH\Controllers\Shop_Car.php(26): view('shoping_car', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:42:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:42:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:42:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 17:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 17:42:13 --> Attempt to read property "imagen" on array
+in APPPATH\Views\shoping_car.php on line 20.
+ 1 APPPATH\Views\shoping_car.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\shoping_car.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\shoping_car.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('shoping_car', [], true)
+ 5 APPPATH\Controllers\Shop_Car.php(26): view('shoping_car', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:44:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:44:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:44:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 17:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 17:44:00 --> Attempt to read property "nombre" on array
+in APPPATH\Views\shoping_car.php on line 21.
+ 1 APPPATH\Views\shoping_car.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\shoping_car.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\shoping_car.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('shoping_car', [], true)
+ 5 APPPATH\Controllers\Shop_Car.php(26): view('shoping_car', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:44:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:44:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:44:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 17:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 17:44:37 --> Attempt to read property "imagen" on array
+in APPPATH\Views\shoping_car.php on line 20.
+ 1 APPPATH\Views\shoping_car.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on array', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\shoping_car.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\shoping_car.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('shoping_car', [], true)
+ 5 APPPATH\Controllers\Shop_Car.php(26): view('shoping_car', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:47:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:47:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:47:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 17:47:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\shop_carModel.php on line 67.
+ 1 APPPATH\Controllers\Shop_Car.php(19): App\Models\shop_carModel->fecth_all()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:50:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:50:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:50:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 17:50:36 --> Call to undefined method App\Models\shop_carModel::fecth_all
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Shop_Car.php(19): CodeIgniter\Model->__call('fecth_all', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:54:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:54:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:54:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 17:54:35 --> Undefined variable $thsi
+in APPPATH\Controllers\Shop_Car.php on line 19.
+ 1 APPPATH\Controllers\Shop_Car.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $thsi', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Shop_Car.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:54:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:54:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:54:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 17:54:37 --> Undefined variable $thsi
+in APPPATH\Controllers\Shop_Car.php on line 19.
+ 1 APPPATH\Controllers\Shop_Car.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $thsi', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Shop_Car.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:54:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$productos is deprecated in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:54:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$categorias is deprecated in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 17:54:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Shop_Car::$unidades is deprecated in APPPATH\Controllers\Shop_Car.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 17:54:39 --> Undefined variable $thsi
+in APPPATH\Controllers\Shop_Car.php on line 19.
+ 1 APPPATH\Controllers\Shop_Car.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $thsi', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Shop_Car.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 18:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 18:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 18:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 18:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 18:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 18:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 18:45:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 18:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 19:12:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 19:12:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 19:12:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 19:12:39 --> Cannot call constructor
+in APPPATH\Controllers\Shop_Car.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:13:09 --> Undefined property: App\Controllers\Shop_Car::$load
+in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 APPPATH\Controllers\Shop_Car.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop_Car::$load', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Shop_Car.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:13:11 --> Undefined property: App\Controllers\Shop_Car::$load
+in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 APPPATH\Controllers\Shop_Car.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop_Car::$load', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Shop_Car.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:14:27 --> Undefined property: App\Controllers\Shop_Car::$session
+in APPPATH\Controllers\Shop_Car.php on line 12.
+ 1 APPPATH\Controllers\Shop_Car.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop_Car::$session', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Shop_Car.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Shop_Car->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop_Car))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:15:06 --> Undefined property: App\Controllers\Shop_Car::$load
+in APPPATH\Controllers\Shop_Car.php on line 7.
+ 1 APPPATH\Controllers\Shop_Car.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop_Car::$load', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Shop_Car.php', 7)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:15:34 --> Cannot call constructor
+in APPPATH\Controllers\Shop_Car.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:15:49 --> Undefined property: App\Controllers\Shop_Car::$load
+in APPPATH\Controllers\Shop_Car.php on line 9.
+ 1 APPPATH\Controllers\Shop_Car.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop_Car::$load', 'C:\\xampp\\htdocs\\pizeria\\app\\Controllers\\Shop_Car.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Shop_Car->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 19:36:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 19:37:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 19:38:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 19:38:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 19:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 19:46:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 19:46:27 --> Undefined variable $id_compra
+in APPPATH\Views\compras\nuevo.php on line 26.
+ 1 APPPATH\Views\compras\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\compras\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('compras/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 19:46:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 19:46:57 --> Undefined variable $id_compra
+in APPPATH\Views\compras\nuevo.php on line 26.
+ 1 APPPATH\Views\compras\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\compras\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('compras/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 19:47:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 19:47:12 --> Undefined variable $id_compra
+in APPPATH\Views\compras\nuevo.php on line 60.
+ 1 APPPATH\Views\compras\nuevo.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'C:\\xampp\\htdocs\\pizeria\\app\\Views\\compras\\nuevo.php', 60)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pizeria\\app\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('compras/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-11-21 19:48:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 19:52:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 19:52:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Compras::$compras is deprecated in APPPATH\Controllers\Compras.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 19:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

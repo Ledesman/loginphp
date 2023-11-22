@@ -13,6 +13,11 @@
     <input type="hidden" id="id" name="id" value="<?php echo $producto['id']; ?>" />
     <div class="form-group">
         <div class="row">
+        <div class="col-12 col-sm-6">
+            <label for="">Ingrese Codigo</label>
+              <input type="text" class="form-control" id="codigo" name="codigo" placeholder="Ingrese Codigo"
+              value="<?php echo $producto['codigo']; ?>">
+            </div>
             <div class="col-12 col-sm-6">
             <label for="">Ingrese Nombre del Producto</label>
               <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese nombre del Producto"

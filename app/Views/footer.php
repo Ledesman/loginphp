@@ -26,13 +26,19 @@
                 </footer>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
-        <script src="assets/demo/datatables-demo.js"></script>
-    <script>
+        <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>--> 
+
+        <!-- <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script> -->
+        <script src="<?php echo  base_url();?>/assets/demo/datatables-demo.js"></script>
+        <script src="<?php echo  base_url();?>/js/jquery-ui.min.js"></script> 
+         <script src="<?php echo  base_url();?>/js/jquery.dataTables.min.js"></script> 
+         <script src="<?php echo  base_url();?>/js/dataTables.bootstrap4.min.js"></script> 
+         <script src="<?php echo  base_url();?>/js/scripts.js"></script> 
+         <script src="<?php echo  base_url();?>/js/bootstrap.bundle.min.js"></script> 
+         <script src="<?php echo  base_url();?>/js/all.min.js"></script> 
+   <script>
         $('#modal-confirma').on('show.bs.modal', function(e){
             $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href') )
         });

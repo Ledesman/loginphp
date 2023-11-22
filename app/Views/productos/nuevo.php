@@ -19,6 +19,11 @@
 
     <div class="form-group">
         <div class="row">
+        <div class="col-12 col-sm-6">
+            <label for="">Ingrese Codigo</label>
+              <input type="text" class="form-control" id="codigo" name="codigo" placeholder="Ingrese codigo Producto"
+             >
+             </div>
             <div class="col-12 col-sm-6">
             <label for="">Ingrese Nombre del Producto</label>
               <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese nombre del Producto"

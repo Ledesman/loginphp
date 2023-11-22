@@ -15,7 +15,8 @@
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                         <thead>
                                         <tr>
-                                <     <th>Id</th>
+                                     <th>Id</th>
+                                <th>Codigo</th>
                                 <th>Nombre</th>
                          <th>Descripcion</th>
                          <th>Imagen</th>
@@ -34,6 +35,7 @@
                                 
                               <tr>
                               <td><?php echo $dato['id']; ?></td>
+                        <td><?php echo $dato['codigo']; ?></td>
                         <td><?php echo $dato['nombre']; ?></td>
                         <td><?php echo $dato['descripcion']; ?></td>
                         <td><?php echo $dato['imagen']; ?></td>

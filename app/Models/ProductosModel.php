@@ -10,7 +10,7 @@
         protected $returnType     = 'array';
         protected $useSoftDeletes = false;
     
-        protected $allowedFields = ['nombre', 'descripcion', 'imagen',
+        protected $allowedFields = ['codigo','nombre', 'descripcion', 'imagen',
          'cantidad', 'precio', 'id_unidad', 'id_categoria','estado'];
     
         // Dates
@@ -32,25 +32,31 @@
 
              return $this->db->insertID();
          }
-        // public function obtenerNombre($data){
-        //     $Nombres = $this->db->table('unidades');
-        //     $Nombres->where($data);
+        public function get_producto($codigo){
+            $sql= "SELECT * FROM productos WHERE codigo='$codigo';";
+            
+            $query = $this->db->query($sql);
+            $result->$query->getResult();
 
-        //     return $Nombres->get()->getResultArray();
-        // }
+            if (count($result) > 1) {
+                return $result;
+            }else{
+                return NULL;
+            }
+
+            return $Nombres->get()->getResultArray();
+        }
 
         public function actualice($data, $id){
+           
             $Nombres = $this->db->table('productos');
             $Nombres->set($data);
 
             $Nombres->where('id', $id);
             return $Nombres->update();
         }
-        //     public function eliminar($data){
-        //         $Nombres= $this->db->table('unidades');
-        //         $Nombres->where($data);
-
-        //         return $Nombres->delete();
-        //     }
+        public function porCodigoDeBarras($codigoDeBarras){
+            return $this->db->get_where("productos", array("codigo" => $codigoDeBarras))->row();
+        }
 
     }

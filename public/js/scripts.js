@@ -20,3 +20,7 @@
         $("body").toggleClass("sb-sidenav-toggled");
     });
 })(jQuery);
+
+$('#modal-confirma').on('show.bs.modal', function(e) {
+        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+    });

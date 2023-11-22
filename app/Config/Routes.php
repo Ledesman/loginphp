@@ -42,6 +42,8 @@ $routes->get('/categorias/editar/(:any)', 'Categorias::editar/$1');
 
 $routes->get('/productos', 'Productos::index');
 $routes->get('/productosNuevo', 'Productos::nuevo');
+
+
 $routes->get('productos/eliminados', 'Productos::eliminados');
 $routes->post('/productos/insertar', 'Productos::insertar');
 $routes->get('/productos/eliminar/(:any)', 'Productos::eliminar/$1');
@@ -82,7 +84,17 @@ $routes->get('usuarios/eliminados', 'Usuarios::eliminados');
 $routes->get('/usuarios/reingresar/(:any)', 'Usuarios::reingresar/$1');
 
 
+$routes->get('/compras', 'Compras::index');
+$routes->get('compras/nuevo', 'Compras::nuevo');
 
+$routes->post('/compras/nuevo', 'Compras::buscarPorCodigo');
+
+$routes->post('/Productos/buscarPorCodigo', 'Productos::buscarPorCodigo');
+$routes->get('/productos/buscarPorCodigo/(:any)', 'Productos::buscarPorCodigo/$1');
+$routes->get('/productos/buscarPorCodigo/(:num)', 'productos::buscarPorCodigo/$1');
+
+
+$routes->get('/compras/lista', 'Shop_Car::index');
 
 
 

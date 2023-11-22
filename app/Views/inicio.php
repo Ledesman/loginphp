@@ -11,7 +11,16 @@ $user_sesion = session();
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>/vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>/css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="<?php echo base_url(); ?>/images/favicon.png" />
 
+  <script src="<?php echo base_url(); ?>/js/jquery-3.6.0.min.js"></script>
     <title>Inicio</title>
     
   </head>
@@ -46,14 +55,26 @@ $user_sesion = session();
     <!-- <li class="nav-item "> -->
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-expanded="false"><i class="fas fa-tools"></i>Administracion</a>
     <div class="dropdown-menu">
-    <a class="nav-link" href="<?php echo base_url('/configuracion') ?>"><i class="fas fa-window-restore"></i>Configuracion<span class="sr-only">(current)</span></a>
+    <a class="nav-link" href="<?php echo base_url('/configuracion') ?>"><i class="fa fa-cogs"></i>Configuracion<span class="sr-only">(current)</span></a>
         <a class="nav-link" href="<?php echo base_url('/usuarios') ?>"><i class="fas fa-window-maximize"></i>Usuarios<span class="sr-only">(current)</span></a>
         <a class="nav-link" href="<?php echo base_url('/loginP') ?>"><i class="fas fa-tv"></i>LoginP<span class="sr-only">(current)</span></a>
         <a class="nav-link" href="<?php echo base_url('/cambiarPass') ?>"><i class="fas fa-tv"></i>Cambair Contraseña<span class="sr-only">(current)</span></a>
 
       <!-- <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a>
-    </div> -->
+      <a class="dropdown-item" href="#">Separated link</a>-->
+    </div> 
+</ul>
+<ul class="nav-item dropdown">
+    <!-- <li class="nav-item "> -->
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-expanded="false"><i class="fa fa-cash-register"></i>Compras</a>
+    <div class="dropdown-menu">
+    <a class="nav-link" href="<?php echo base_url('compras/nuevo') ?>"><i class="fa fa-credit-card"></i>Nueva Compra<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('/compras') ?>"><i class="fa fa-cart-plus"></i>Compra<span class="sr-only">(current)</span></a>
+      
+
+      <!-- <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>-->
+    </div> 
 </ul>
  
     <ul class="navbar-nav mr-auto">
@@ -68,9 +89,16 @@ $user_sesion = session();
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+    
+    <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap4.min.js"></script>
+     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

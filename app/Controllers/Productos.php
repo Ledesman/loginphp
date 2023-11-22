@@ -61,6 +61,7 @@ class Productos extends BaseController
     public function insertar(){
        if ($this->request->getMethod()=="post" ) {
            $datos =[
+            "codigo" => $_POST['codigo'],
             "nombre" => $_POST['nombre'],
             "descripcion" => $_POST['descripcion'],
             "imagen" => $_POST['imagen'],
@@ -102,6 +103,7 @@ class Productos extends BaseController
         
 
         $this->productos->update($this->request->getPost('id'), [
+            'codigo' => $this->request->getPost('codigo'),
             'nombre' => $this->request->getPost('nombre'),
         'descripcion' => $this->request->getPost('descripcion'),
         'imagen' => $this->request->getPost('imagen'),
@@ -120,6 +122,26 @@ class Productos extends BaseController
                     return redirect()->to(base_url().'/productos');
                
             }
+            public function buscarPorCodigo($codigo){
+                $this->productos->select('*');
+                $this->productos->where('codigo', $codigo);
+                $this->productos->where('estado', 1);
+                $datos = $this->productos->get()->getRow();
+    
+                $existe['existe'] = false;
+                $res['datos'] = '';
+                $error['error'] = '';
+    
+                if($datos){
+                    $res['datos']=$datos;
+                    $res['existe'] = true;
+                }else{
+                    $res['error']= "No existe el producto";
+                    $res['existe'] = false;
+                }
+                echo json_encode($res);
+            }
+   
 
 
 }    
